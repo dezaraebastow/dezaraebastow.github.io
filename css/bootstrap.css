@@ -1284,7 +1284,11 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+	font-size: 40px;
+	font-family: amatic-sc;
+	font-style: normal;
+	font-weight: 400;
+	color: #000000;
 }
 h3,
 .h3 {
@@ -3128,9 +3132,13 @@ fieldset[disabled] a.btn {
 .btn-default:active.focus,
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
-  color: #333;
-  background-color: #d4d4d4;
-  border-color: #8c8c8c;
+	color: #333;
+	background-color: rgba(148,0,2,1.00);
+	border-color: #8c8c8c;
+	background-image: -webkit-linear-gradient(270deg,rgba(148,0,2,1.00) 0%,rgba(148,0,2,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(148,0,2,1.00) 0%,rgba(148,0,2,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(148,0,2,1.00) 0%,rgba(148,0,2,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(148,0,2,1.00) 0%,rgba(148,0,2,1.00) 100%);
 }
 .btn-default:active,
 .btn-default.active,
